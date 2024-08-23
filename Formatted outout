@@ -1,0 +1,13 @@
+import java.io.*;
+public class Main{
+    public static void main(String args[]){
+        String str="venumadhavi";
+        System.out.printf("\n The String value is : %s\n",str);
+        int x=512;
+        System.out.printf("\n The Integer value is : %i\n",x);
+        double f=5.24678;
+        System.out.printf("\n The Double value is : %lf\n",f);
+        System.out.printf("\n After formatting to specific width : %.4lf\n",f);
+        System.out.printf("\nAfter formatting to right margin the value is : %10.2lf\n",f);
+    }
+}
