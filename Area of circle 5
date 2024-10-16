@@ -12,7 +12,7 @@ class Circle {
         this.r=r;
     }
 }
-public ClassMain {
+public class Main {
     public static void main(String args[]) {
         Scanner Sc=new Scanner(System.in);
         Circle c1=new Circle();
